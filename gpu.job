@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#SBATCH --job-name=simple-gpu    # Job name
+#SBATCH --output=job.%j.out      # Name of output file (%j expands to jobId)
+#SBATCH --cpus-per-task=64       # Schedule sixty four cores
+#SBATCH --gres=gpu               # Schedule a GPU
+
+
+python3 questions.py
+
+
+echo "Running on $(hostname):"
+nvidia-smi
