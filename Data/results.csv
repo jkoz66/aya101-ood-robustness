@@ -1,0 +1,25 @@
+SK,,,,,,,
+BERTScore,,,,,,,
+Squad,original question,Synonym Substitution,Typo,Rewording,Code-Switching,TOTAL,
+,0.6983547211,0.7210256934,0.7240973294,0.7156852841,0.7279804766,0.7174287009,
+MultiQ,original question,Synonym Substitution,Typo,Rewording,Code-Switching,TOTAL,
+,0.7768617034,0.7928193958,0.8095237928,0.8203484311,0.7539155798,0.7906937806,
+,,,,,,,
+Manual,,,,,,,
+Squad,original question,Synonym Substitution,Typo,Rewording,Code-Switching,TOTAL,%
+,46-9-49,45-4-49,45-9-49,44-6-48,42-5-46,222-33-241,88.8-13.2-96.4
+MultiQ,original question,Synonym Substitution,Typo,Rewording,Code-Switching,TOTAL,%
+,47-26-49,45-28-49,46-21-50,46-27-50,45-25-39,229-127-237,91.6-50.8-94.8
+,,,,,,,
+PL,,,,,,,
+BERTScore,,,,,,,
+Squad,original question,Synonym Substitution,Typo,Rewording,Code-Switching,TOTAL,
+,71.2,71.8,72.23,73,71.62,71.97,
+MultiQ,original question,Synonym Substitution,Typo,Rewording,Code-Switching,TOTAL,
+,78.67,76.27,78.3,76.57,77.7,77.5,
+,,,,,,,
+Manual,,,,,,,
+Squad,original question,Synonym Substitution,Typo,Rewording,Code-Switching,TOTAL,%
+,35-3-50,36-4-50,39-4-50,39-3-50,30-4-46,179-18-246,71.6-7.2-98.4
+MultiQ,original question,Synonym Substitution,Typo,Rewording,Code-Switching,TOTAL,%
+,45-22-50,47-19-50,42-22-49,41-19-49,44-22-39,219-104-237,87.6-41.6-94.8
